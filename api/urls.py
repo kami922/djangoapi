@@ -7,4 +7,4 @@ router.register(r'companies',CompanyViewSet)
 
 urlpatterns = [
     path('',include(router.urls))
-]
+]   
